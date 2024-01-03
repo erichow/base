@@ -1,6 +1,6 @@
 {
-  "name": "@hxdms/vue-element-admin",
-  "version": "1.0.3-RELEASE",
+  "name": "base",
+  "version": "1.0.0",
   "description": "A magical vue admin. An out-of-box UI solution for enterprise applications. Newest development stack of vue. Lots of awesome features",
   "author": "Pan <panfree23@gmail.com>",
   "scripts": {
@@ -15,6 +15,7 @@
     "test:ci": "npm run lint && npm run test:unit"
   },
   "dependencies": {
+    "@hxdms/vue-element-admin": "^1.0.3",
     "axios": "0.18.1",
     "clipboard": "2.0.4",
     "codemirror": "5.45.0",
