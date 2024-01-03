@@ -44,7 +44,8 @@ module.exports = {
     name: name,
     resolve: {
       alias: {
-        '@': resolve('src')
+        '@': resolve('node_modules/@zhoudm5/vue-element-admin/src'),
+        '@@': resolve('src')
       }
     }
   },
