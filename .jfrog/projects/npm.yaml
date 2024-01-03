@@ -1,0 +1,8 @@
+version: 1
+type: npm
+resolver:
+    repo: evicloud-npm-dev-virtual
+    serverId: evicloud-npm-dev-virtual
+deployer:
+    repo: evicloud-npm-dev-virtual
+    serverId: evicloud-npm-dev-virtual
