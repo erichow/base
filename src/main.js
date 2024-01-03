@@ -45,6 +45,10 @@ Object.keys(filters).forEach(key => {
 
 Vue.config.productionTip = false
 
+// import PanelGroup from "./rewrite/PanelGroup";
+
+// Vue.component("PanelGroup", PanelGroup);
+
 new Vue({
   el: '#app',
   router,
